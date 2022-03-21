@@ -1,1 +1,3 @@
 node_modules
+cypress\integration\teste.js
+cypress\integration\testeiframe.js
