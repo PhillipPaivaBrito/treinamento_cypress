@@ -36,7 +36,7 @@ it('listar usuarios no Iframe',()=>{
     cy.iframe('[id="id_do_iframe"]').find('div[class="collapsible-body"][style="display: block;"] a[data-method="get"][href="/users"]').should('be.visible').click('right');
 })
 
-it.only('excluir usuario no Iframe',()=>{
+it('excluir usuario no Iframe',()=>{
     cy.get(':nth-child(3) > .collapsible-header').should('be.visible').click();
     cy.get('[href="/mudancadefoco/iframe"]').should('be.visible').click();
     cy.get('[id="id_do_iframe"]').should('exist');
