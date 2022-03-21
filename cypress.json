@@ -1,0 +1,6 @@
+{
+    "chromeWebSecurity": false,
+    "baseUrl":"https://automacaocombatista.herokuapp.com/treinamento/home",
+    "viewportWidth": 1080,
+    "viewportHeight": 1080
+}
