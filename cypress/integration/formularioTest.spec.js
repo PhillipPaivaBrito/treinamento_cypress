@@ -22,10 +22,10 @@ it('deve criar um usuario no iframe',()=>{
     criarUsuarioIframe();
 })
 
-it('deve lsitar os usuarios no Iframe',()=>{
-    listarUsuariosIframe();
-})
+//it('deve lsitar os usuarios no Iframe',()=>{
+//    listarUsuariosIframe();
+//})
 
-it.only('deve excluir um usuario da lista',()=>{
-    excluirUsuarioIframe();
+it('deve excluir um usuario da lista',()=>{
+    excluirUsuario();
 })
